@@ -3,6 +3,7 @@ import Hero from '../../../app/(web)/(home)/_components/hero';
 import HowItHelpsYou from '../../../app/(web)/(home)/_components/how-it-helps-you';
 import HowItWorks from '../../../app/(web)/(home)/_components/how-it-works';
 import { OurCommitment } from './_components/our-commitment';
+import BlogSection from './_components/blogSection';
 
 export const metadata = {
   title: 'MindMolt – Break Free from Porn Addiction',
@@ -17,7 +18,7 @@ export default function Home() {
       <HowItHelpsYou />
       <HowItWorks />
       <OurCommitment />
-      {/* <BlogSection /> */}
+      <BlogSection />
       <Pricing />
     </main>
   );
